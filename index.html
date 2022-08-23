@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Marathon5</title>
   </head>
 
@@ -15,25 +24,25 @@
         <span class="">SCANDI</span>
       </a>
       <nav>
-        <ul>
-          <li><a href="">О компании</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Команда</a></li>
-          <li><a href="">Как мы работаем</a></li>
-          <li><a href="">Отзывы клиентов</a></li>
-          <li><a href="">Оставить заявку</a></li>
+        <ul class="menu">
+          <li><a class="menu_link" href="">О компании</a></li>
+          <li><a class="menu_link" href="">Портфолио</a></li>
+          <li><a class="menu_link" href="">Команда</a></li>
+          <li><a class="menu_link" href="">Как мы работаем</a></li>
+          <li><a class="menu_link" href="">Отзывы клиентов</a></li>
+          <li><a class="menu_link" href="">Оставить заявку</a></li>
         </ul>
       </nav>
-      <span class="">+7 (981) 857-46-24</span>
+      <a href="" class="">+7 (981) 857-46-24</a>
     </header>
     <main>
       <section class="entry">
-        <h1>Поможем сделать вашу квартиру уютнее</h1>
-        <p>
+        <h1 class="entry_head">Поможем сделать вашу квартиру уютнее</h1>
+        <p class="entry_text">
           Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим
           магазины и помогаем организовать доставку
         </p>
-        <button class="request">Оставить заявку</button>
+        <a href="" class="request_button">Оставить заявку</a>
       </section>
       <section class="about">
         <h2>О нас</h2>
@@ -78,7 +87,7 @@
             <figure class="works_element">
               <img src="img/work1.jpg" alt="Работа 1" />
               <figcaption class="works_info">
-                <p class="works_name">Квартира-студия 30 кв.м.</p>
+                <h3>Квартира-студия 30 кв.м.</h3>
                 <p class="works_description">
                   В квартире были светлые стены и тёплые цвета. Мы
                   сконцентрировались на отсылках к природе и сделали ребятам
@@ -91,7 +100,7 @@
             <figure class="works_element">
               <img src="img/work2.jpg" alt="Работа 2" />
               <figcaption class="works_info">
-                <p class="works_name">Квартира-студия 30 кв.м.</p>
+                <h3>Квартира-студия 30 кв.м.</h3>
                 <p class="works_description">
                   В квартире были светлые стены и тёплые цвета. Мы
                   сконцентрировались на отсылках к природе и сделали ребятам
@@ -105,7 +114,7 @@
             <figure class="works_element">
               <img src="img/work3.jpg" alt="Работа 3" />
               <figcaption class="works_info">
-                <p class="works_name">Квартира-студия 30 кв.м.</p>
+                <h3>Квартира-студия 30 кв.м.</h3>
                 <p class="works_description">
                   В квартире были светлые стены и тёплые цвета. Мы
                   сконцентрировались на отсылках к природе и сделали ребятам
@@ -119,7 +128,7 @@
             <figure class="works_element">
               <img src="img/work4.jpg" alt="Работа 4" />
               <figcaption class="works_info">
-                <p class="works_name">Квартира-студия 30 кв.м.</p>
+                <h3>Квартира-студия 30 кв.м.</h3>
                 <p class="works_description">
                   В квартире были светлые стены и тёплые цвета. Мы
                   сконцентрировались на отсылках к природе и сделали ребятам
@@ -246,7 +255,7 @@
                   placeholder="Введите телефон"
                 />
               </div>
-              <button class="request">Оставить заявку</button>
+              <button class="request_button">Оставить заявку</button>
             </form>
           </li>
           <li>

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* Основные стили */
+html {
+  background-color: #E5E5E5;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #EFE6E4;
+  color: #533738;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 62px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.request_button {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: #CC8B86;
+}
+
+.menu_link {
+  font-size: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.entry {
+  background-image: url(../img/bakground.jpg);
+}
+
+.advantages_subtitle {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.advantages_text {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+}
+
+.advantages {
+  background-color: #8D7370;
+}
+
+.works h3 {
+  font-weight: 500;
+}
+.works .see_more {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 37px;
+}
+
+.company {
+  background-color: #E2C4BA;
+}
+.company .how_work_title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.request {
+  background-color: #8D7370;
+}
+
+.request_button {
+  font-size: 20px;
+  font-weight: 500;
+}
